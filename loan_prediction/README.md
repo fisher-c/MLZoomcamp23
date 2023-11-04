@@ -1,4 +1,4 @@
-## Loan Prediction: An End-to-End Machine Learning Project
+## Loan Prediction
 
 ### Overview
 
