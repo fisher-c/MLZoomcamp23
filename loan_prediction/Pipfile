@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"  # Use the correct version you need for pandas
+scikit-learn = "1.3.1"
+gunicorn = "*"  # or "waitress" if you are on Windows or prefer it over gunicorn
+flask = "*"
+requests = "*"  # if you're making HTTP requests in your test scripts
+waitress = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
